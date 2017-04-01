@@ -8,18 +8,21 @@ body{
     width: 100%;
     height: 100%;
     }
- 
+ header:hover{
+  box-shadow: inset 0 0 0 3px #53ea93;
+}
+
 header{
     
     
     width: 100%;
     height: 200px;
-    background-image: url(dof.png)
+    background-image: url(img/dof.png)
+
+
 }
 nav{
-
-    background-image:url(pog.jpg); 
-    
+    background-image:url(img/pop.jpg); 
     width: 100%;
     height:100px;
     padding: 0px;
@@ -50,7 +53,7 @@ background-color: red;
 }
 main{
 float: left;
-    background-image:url(main.jpg);
+    background-image:url(img/main.jpg);
 background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -153,4 +156,13 @@ padding: 10px;
     border: ridge #0f0;
     background-color:gold;  
 }
-
+/* годиник*/
+#digital_watch{
+    color: red; 
+    font-size: 30px; 
+    font-weight: bold;
+    text-align: center;
+    background-color: gold;
+     ;
+}
+/* /годиник*/
