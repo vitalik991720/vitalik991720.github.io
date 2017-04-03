@@ -37,7 +37,7 @@ background-color:green;
 }
 .menu{
     height: 30px;
-    width: 190px;
+    width: 260px;
     text-align: center;
      display: inline-block;
     color:black;
@@ -68,6 +68,7 @@ footer{
 }
 
 article{
+
     display: block;
     float: left;
     background-color:white;  
@@ -76,7 +77,7 @@ width:200px;
 border:5px solid black;
 border-radius:5px 5px 5px 5px;
 margin: 10px;
-margin-left:60px ; 
+margin-left:200px ; 
 
 }
  article img{
@@ -100,6 +101,7 @@ height:200px;
 
 }
  article a{
+    margin: 2px;
     padding:5px;
     background-color:#ed7d7d;
     border-radius:5px;
@@ -134,7 +136,7 @@ footer { height: 100px;
 section{
 padding: 10px;
   clear: left;
-  color: black;
+  color: white;
   font-size: 18px;
 }
 .youtube{
@@ -166,3 +168,22 @@ padding: 10px;
      ;
 }
 /* /годиник*/
+address{
+    font-size: 40px;
+    font-family: Arial;
+}
+/*галелея в vk.html*/
+.slider-box{
+  width:320px;
+  height:210px;
+  overflow:hidden;
+}
+.slider{
+  position:relative;
+  width:10000px;
+  height:210px;
+}
+.slider img{
+  float:left;
+  z-index:0;
+}

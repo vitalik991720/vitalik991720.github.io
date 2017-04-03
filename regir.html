@@ -6,8 +6,11 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="test1.css" media="only screen and (max-width:1439px)">
 <link rel="stylesheet" type="text/css" href="test1.css" media="only screen and (max-width:768px)">
-<script type="text/javascript" src="sate.js"></script>>
-
+<script type="text/javascript" src="sate.js"></script>
+<link href="form.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+ 
+  
 
 </head>
 <body onload="digitalWatch()">
@@ -30,16 +33,38 @@
 </nav>
 <!--main-->
     <main>
-<aside >
-   <p id="digital_watch"></p>
-  </aside>
 
-   <section><span> «Пого́да — стан нижнього шару атмосфери в конкретній місцевості в конкретний час, або протягом тривалого часу (година, доба, декада, місяць). Характеризується рядом метеорологічних елементів, таких як вітер, температура, тиск, вологість, видимість та ін.
+<div id="wr">
+    
+<form name="login-form" class="login-form" action="" method="post">
 
-Багаторічний режим погоди в даній місцевості називають кліматом даної місцевості.
+    <div class="header">
+    <h1>Авторизація</h1>
+    <span>Введіть ваш регістраційні данні для входу у ваш особистий кабінет. </span>
+    </div>
 
-Виділяють періодичні і неперіодичні зміни погоди. Періодичні зміни погоди залежать від добового та річного обертання Землі. Неперіодичні обумовлені переносом повітряних мас. Вони порушують нормальний хід метеорологічних елементів. Розбіжність фази періодичних змін з характером неперіодичних призводять до найрізкіших змін погоди.
-</span></section>
+    <div class="content">
+    <input name="username" type="text" class="input username" value="Логін" onfocus="this.value=''" />
+    <input name="password" type="password" class="input password" value="Пароль" onfocus="this.value=''" />
+    </div>
+
+    <div class="footer">
+    <input type="submit" name="submit" value="ВІЙТИ" class="button" />
+    <input type="submit" name="submit" value="Регістрація" class="register" />
+    </div>
+
+</form>
+</div>
+<
+
+
+
+
+
+
+
+
+
  </main>
    <!--/main-->
 
@@ -47,7 +72,7 @@
     <footer>
     
 
->
+
 <div id="footer_menu">
 <a href="" class="footer_menu_a">Всі права захищені </a>
 <a href="" title="дізнатися про рекламу" class="footer_menu_a">Реклама</a>
