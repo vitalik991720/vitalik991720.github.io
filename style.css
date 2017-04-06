@@ -172,18 +172,29 @@ address{
     font-size: 40px;
     font-family: Arial;
 }
-/*галелея в vk.html*/
-.slider-box{
-  width:320px;
-  height:210px;
-  overflow:hidden;
+.dark,.light
+{
+     margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 10px ;
+
+ 
 }
-.slider{
-  position:relative;
-  width:10000px;
-  height:210px;
+.dark{
+background-color: #DC143C;
 }
-.slider img{
-  float:left;
-  z-index:0;
+.light{
+background-color: #ADFF2F;
 }
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+   

@@ -4,7 +4,7 @@
     float: left;
     background-color:white;  
 padding-top: 10px;  
-width:150px;
+width:200px;
 border:5px solid black;
 border-radius:5px 5px 5px 5px;
 margin: 5px;
@@ -12,8 +12,8 @@ margin-left:60px ;
 
 }
  article img{
-width:150px;
-height:150px;
+width:200px;
+height:200px;
  border-bottom: 5px solid black;
 
 }
